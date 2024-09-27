@@ -1402,10 +1402,14 @@ ul {
   }
 
   .first-sec {
-    margin: 655px 0px 0 -4px;
+    margin: 655px 0px 0 0px;
     flex-direction: column;
   }
 
+  .container1 {
+    padding: 245px 60px 0 66px;
+  }
+  
   .question {
     font-family: Poppins;
     font-size: 40px;
@@ -2880,5 +2884,35 @@ ul {
 
   .followUs a {
     width: 82px;
+  }
+}
+
+@media (min-width: 1921px) {
+  body {
+    background: url(./images/BG\ 1.jpg) top left/2132px 1900px no-repeat, #0b1d27;
+  }
+
+  .oh-one {
+    top: 1300px;
+  }
+  
+  .getstarted {
+    top: 1500px;
+  }
+
+  .oh-two {
+    top: 2200px;
+  }
+  
+  .hikingessentials {
+    top: 2400px;
+  }
+
+  .whereyou {
+    top: 3300px;
+  }
+  
+  .oh-three {
+    top: 3100px;
   }
 }
